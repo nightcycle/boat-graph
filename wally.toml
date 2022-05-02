@@ -1,7 +1,7 @@
 [package]
 name = "nightcycle/boat-graph"
 description = "Modified port of BoatBomber's Graph Module to Wally"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["CJ Oyer <coyer@nightcycle.us>", "boatbomber <zack@boatbomber.com>"]
 realm = "shared"
 registry = "https://github.com/upliftgames/wally-index"

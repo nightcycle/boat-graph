@@ -18,7 +18,7 @@ function self:SetTheme(ThemeDictionary)
 --]=]
 local TextService = game:GetService("TextService")
 
-local packages = script.Parent.Parent
+local packages = script.Parent
 local Maid = require(packages:WaitForChild("maid"))
 
 local Theme = {
@@ -46,7 +46,7 @@ local Graph = {}
 Graph.__index = Graph
 
 function Graph:Destroy()
-	print("Destroy")
+	-- print("Destroy")
 	self._Maid:Destroy()
 end
 
